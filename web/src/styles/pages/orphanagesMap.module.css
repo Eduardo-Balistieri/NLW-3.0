@@ -1,0 +1,66 @@
+#pageMap {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+#pageMap aside {
+    width: 440px;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.header h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 64px;
+}
+
+.header p {
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 42px;
+}
+
+.footer strong {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+
+.createOrphanage {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+    width: 64px;
+    height: 64px;
+    background-color: #15c3d6;
+    border-radius: 20px;
+    transition: background-color ease-out 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.createOrphanage:hover {
+    background-color: #17d6eb;
+}
