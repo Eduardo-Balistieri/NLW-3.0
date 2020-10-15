@@ -13,6 +13,29 @@ body, input, button, textarea {
     font: 600 18px 'Nunito', sans-serif;
 }
 
+
+/* map styles */
+
 .leaflet-container {
     z-index: 0;
+}
+
+.mapPopup .leaflet-popup-content-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.mapPopup .leaflet-popup-content {
+    color: #0089a5;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mapPopup .leaflet-popup-tip-container {
+    display: none;
 }
